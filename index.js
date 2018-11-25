@@ -25,7 +25,7 @@ function deleteFromObjectByKey(object, key) {
 }
 
 deleteFromObjectByKey(recipes, "chicken")
-//console.log(recipe2)
+//console.log(recipes2)
 function destructivelyDeleteFromObjectByKey(object, key) {
 
 }
