@@ -25,4 +25,5 @@ function deleteFromObjectByKey(object, key) {
   return object2
 }
 deleteFromObjectByKey(recipes, mer)
+
 //console.log(object2)
