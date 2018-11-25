@@ -5,7 +5,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object, {[key]:value})
 }
 
-console.log(recipes)
+console.log(recipes + "1")
 recipes = updateObjectWithKeyAndValue(recipes, "chicken", "orange")
 console.log(recipes)
 recipes = updateObjectWithKeyAndValue(recipes, "second chicken", "sesame")
