@@ -21,4 +21,5 @@ function deleteFromObjectByKey(object, key) {
   return object2
 }
 
+deleteFromObjectByKey(recipes, far)
 console.log(recipes)
