@@ -1,10 +1,10 @@
 var recipes2 = new Object();
 var recipes = {}
-/*
+
 function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object, {[key]:value})
 }
-
+/*
 console.log(recipes)
 recipes = updateObjectWithKeyAndValue(recipes, "far", "mer")
 console.log(recipes)
