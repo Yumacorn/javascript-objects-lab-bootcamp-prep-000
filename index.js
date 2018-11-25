@@ -22,7 +22,7 @@ function deleteFromObjectByKey(object, key) {
   console.log(clone)
   return clone
 }
-/*deleteFromObjectByKey(recipes, 'mer')
+deleteFromObjectByKey(recipes, chicken)
 
 //console.log(object2)
 */
