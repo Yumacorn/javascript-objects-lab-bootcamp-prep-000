@@ -20,6 +20,7 @@ function deleteFromObjectByKey(object, key) {
   console.log(object)
   var recipe2 = object
   delete recipe2[key]
+  console.log(recipe2)
   return recipe2
 }
 
