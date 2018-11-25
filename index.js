@@ -16,13 +16,13 @@ function destructivelyUpdateObjectWithKeyAndValue (object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  var clone = object
-  delete clone[key]
-  return clone
+  var receip2 = object
+  delete recipe2[key]
+  return recipe2
 }
 
 deleteFromObjectByKey(recipes, "chicken")
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-
+  
 }
