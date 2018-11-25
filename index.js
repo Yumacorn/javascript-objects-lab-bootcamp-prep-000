@@ -20,5 +20,3 @@ var clone = object
 console.log(clone)
 }
 deleteFromObjectByKey(recipes, "chicken")
-
-console.log(recipes)
