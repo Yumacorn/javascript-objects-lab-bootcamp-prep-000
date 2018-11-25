@@ -20,4 +20,9 @@ function deleteFromObjectByKey(object, key) {
   delete clone[key]
   return clone
 }
+
 deleteFromObjectByKey(recipes, "chicken")
+
+function destructivelyDeleteFromObjectByKey(object, key) {
+  
+}
