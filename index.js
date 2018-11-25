@@ -29,5 +29,6 @@ console.log(recipes2)
 console.log(recipes)
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-
+  delete object[key]
+  return object
 }
