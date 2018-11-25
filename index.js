@@ -20,6 +20,6 @@ function deleteFromObjectByKey(object, key) {
   delete clone.key
   return clone
 }
-deleteFromObjectByKey(recipes, "chicken")
+recipes2 = deleteFromObjectByKey(recipes, "chicken")
 
 console.log(recipes)
