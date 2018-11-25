@@ -11,7 +11,7 @@ console.log(recipes)
 recipes = updateObjectWithKeyAndValue(recipes, "chicken", "sesame")
 console.log(recipes)
 
-//function destructivelyUpdateObjectWithKeyAndValue (object, key, value) {
+/*function destructivelyUpdateObjectWithKeyAndValue (object, key, value) {
   return Object.assign(object, {[key]:value})
 }
 /*
