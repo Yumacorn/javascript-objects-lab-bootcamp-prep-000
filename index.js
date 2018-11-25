@@ -15,13 +15,12 @@ function destructivelyUpdateObjectWithKeyAndValue (object, key, value) {
   return Object.assign(object, {[key]:value})
 }
 
-/*
 function deleteFromObjectByKey(object, key) {
-  var object2 = Object.assign({}, object)
-  console.log(object2)
-  delete object2.key
-  console.log(object2)
-  return object2
+  var clone = Object.assign({}, object)
+  console.log(clone)
+  delete clone.key
+  console.log(clone)
+  return clone
 }
 deleteFromObjectByKey(recipes, 'mer')
 
