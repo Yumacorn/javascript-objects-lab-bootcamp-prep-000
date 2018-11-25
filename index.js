@@ -1,7 +1,7 @@
 var recipes = {}
 var recipes2 = new Object();
 
-function updateObjectWithKeyAndValue(object, key, value) {
+/*function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object, {[key]:value})
 }
 
@@ -27,3 +27,4 @@ function deleteFromObjectByKey(object, key) {
 deleteFromObjectByKey(recipes, 'mer')
 
 //console.log(object2)
+*/
