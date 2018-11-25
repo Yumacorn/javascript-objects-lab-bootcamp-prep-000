@@ -20,7 +20,7 @@ function deleteFromObjectByKey(object, key) {
   console.log(object)
   recipes2 = object
   delete recipes2[key]
-  console.log(recipe2)
+  console.log(recipes2)
   return recipes2
 }
 
