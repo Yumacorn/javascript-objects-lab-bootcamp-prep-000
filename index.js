@@ -18,10 +18,10 @@ function destructivelyUpdateObjectWithKeyAndValue (object, key, value) {
 function deleteFromObjectByKey(object, key) {
   console.log(recipe2)
   console.log(object)
-  recipe2 = object
-  delete recipe2[key]
+  recipes2 = object
+  delete recipes2[key]
   console.log(recipe2)
-  return recipe2
+  return recipes2
 }
 
 deleteFromObjectByKey(recipes, "chicken")
