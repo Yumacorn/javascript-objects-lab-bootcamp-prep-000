@@ -16,10 +16,8 @@ function destructivelyUpdateObjectWithKeyAndValue (object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-var clone = object
-delete clone[key]
-console.log(clone)
-
-return clone
+  var clone = object
+  delete clone[key]
+  return clone
 }
 deleteFromObjectByKey(recipes, "chicken")
