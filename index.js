@@ -9,7 +9,7 @@ console.log(recipes + "1")
 recipes = updateObjectWithKeyAndValue(recipes, "chicken", "orange")
 console.log(recipes + "2")
 recipes = updateObjectWithKeyAndValue(recipes, "second chicken", "sesame")
-console.log(recipes)
+console.log(recipes + "3")
 
 function destructivelyUpdateObjectWithKeyAndValue (object, key, value) {
   return Object.assign(object, {[key]:value})
