@@ -19,8 +19,8 @@ function deleteFromObjectByKey(object, key) {
   //var clone = Object.assign({}, object)
   recipes2 = Object.assign({}, obkect)
   console.log("deleting")
-  delete clone.key
-  return clone
+  delete recipes2.key
+  return recipes2
 }
 recipes2 = deleteFromObjectByKey(recipes, "chicken")
 
