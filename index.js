@@ -22,4 +22,4 @@ function deleteFromObjectByKey(object, key) {
   return object2
 }
 
-console.log(deleteFromObjectByKey(recipes, mer))
+//console.log(deleteFromObjectByKey(recipes, mer))
